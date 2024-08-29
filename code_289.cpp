@@ -27,8 +27,7 @@ char findTheDifference(string s, string t)
 int main()
 {
     string s = "a", t = "aa";
-    char ans = findTheDifference(s, t);
-    cout << ans;
+    cout << findTheDifference(s, t);
  
     return 0;
 }
